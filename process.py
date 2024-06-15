@@ -26,10 +26,11 @@ def process_input_file(input_file):
 
 print("ML system papers targeting efficient training on heterogeneous cluster(cluster with different types of devices) are less studied than homogeneous cluster(cluster with same type of devices). However, there is a growing interest in this area. The motivation of having heterogeneous cluster in distributed training are:")
 print("1. for data centers, the use of heterogeneous GPUs is inevitable due to the short release cycle of new GPU architecture")
-print("2. for users, they can purchase spot instance with a combination of available and cheap heterogeneous devices to reduce expense reduce failure's cost(when one type of device failed because of out-biling(bidding price is lower than spot price), the training can still continue on other types of devices).")
+print("2. for users, they can purchase spot instance with a combination of available and cheap heterogeneous devices to reduce expense and failure's cost(when one type of device failed because of out-biling(bidding price is lower than spot price), the training can still continue on other types of devices).")
+print("")
 print("We have categorized different challenges brought by heterogeneous devices and the corresponding solutions(papers) in the following sections.")
 print("If you have any papers to add, feel free to ping me(lukezhuz@umich.edu).")
-
+print("")
 print("Papers targeting inter-pipeline heterogeneity(each pipeline contains homogeneous devices, different pipelines have heterogeneous devices):")
 print("Main problem to solve: inter-pipeline heterogeneity leads to load imbalance if we allocate the same number of mini-batches to each pipeline and update weight when all pipeline ends.")
 print("- Papers using batch distribution to balance the workload among pipelines")
@@ -43,16 +44,12 @@ markdown_output = process_input_file(input_file)
 print(markdown_output)
 
 print("Papers targeting intra-pipeline heterogeneity(A pipeline contains heterogeneous devices):")
+print("Main problem to solve: Within a pipeline, optimal layer assignment problem on heterogeneous devices is NP-hard with respective to the number of device types.")
 input_file = 'intra_pipeline_hetero.txt'  # Change this to the path of your input file
 markdown_output = process_input_file(input_file)
 print(markdown_output)
 
-print("Papers targeting communication heterogeneity:")
-input_file = 'communication_hetero.txt'  # Change this to the path of your input file
-markdown_output = process_input_file(input_file)
-print(markdown_output)
-
-print("Other papers targeting heterogeneous cluster(I haven't dived into):")
+print("Other papers targeting heterogeneous cluster:")
 input_file = 'others.txt'
 markdown_output = process_input_file(input_file)
 print(markdown_output)

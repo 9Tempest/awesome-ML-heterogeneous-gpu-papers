@@ -1,1 +1,3 @@
-Zeng, Wei, et al. "PanGu-$\alpha $: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation." arXiv preprint arXiv:2104.12369 (2021).;https://arxiv.org/pdf/2104.12369;186;
+Xue, Chunyu, et al. "A Codesign of Scheduling and Parallelization for Large Model Training in Heterogeneous Clusters." arXiv preprint arXiv:2403.16125 (2024).;https://arxiv.org/abs/2403.16125;0;Scheduler and Parallelization Codesign
+Xu, Si, et al. "HetHub: A Heterogeneous distributed hybrid training system for large-scale models." arXiv preprint arXiv:2405.16256 (2024).;https://arxiv.org/pdf/2405.16256;0;3D parallelism strategies on heterogeneous cluster
+Mei, Yixuan, et al. "Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs." arXiv preprint arXiv:2406.01566 (2024).;https://arxiv.org/pdf/2406.01566;0;CMU

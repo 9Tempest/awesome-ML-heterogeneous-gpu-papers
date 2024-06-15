@@ -1,4 +1,0 @@
-
-Li, Dacheng, et al. "Amp: Automatically finding model parallel strategies with heterogeneity awareness." Advances in Neural Information Processing Systems 35 (2022): 6630-6639.;https://proceedings.neurips.cc/paper_files/paper/2022/file/2b4bfa1cebe78d125fefd7ea6ffcfc6d-Paper-Conference.pdf;7; 
-Mei, Yixuan, et al. "Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs." arXiv preprint arXiv:2406.01566 (2024).;https://arxiv.org/pdf/2406.01566;0;CMU
-Xu, Si, et al. "HetHub: A Heterogeneous distributed hybrid training system for large-scale models." arXiv preprint arXiv:2405.16256 (2024).;https://arxiv.org/pdf/2405.16256;0;
