@@ -1,0 +1,1 @@
+Zeng, Wei, et al. "PanGu-$\alpha $: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation." arXiv preprint arXiv:2104.12369 (2021).;https://arxiv.org/pdf/2104.12369;186;
